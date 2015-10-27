@@ -1,0 +1,28 @@
+/*Setting the root font and scaling 1em to equal 10px. I want to practice calculating sizes using base-10 rems before worrying about the cascading effects of using ems*/
+
+html { 
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 62.5%; 
+} 
+
+h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 3.1rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 450;
+	line-height: 2.6rem;
+}
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 2.1rem;
+}
+p {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.6rem;
+}
