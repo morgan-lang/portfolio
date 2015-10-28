@@ -1,28 +1,86 @@
 /*Setting the root font and scaling 1em to equal 10px. I want to practice calculating sizes using base-10 rems before worrying about the cascading effects of using ems*/
 
 html { 
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 62.5%; 
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 62.5%; 
 } 
 
 h1 {
-	font-size: 3rem;
-	font-weight: 500;
-	line-height: 3.1rem;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 3.1rem;
+  color: #333333;
 }
 
 h2 {
-	font-size: 2.5rem;
-	font-weight: 450;
-	line-height: 2.6rem;
+  font-size: 2.5rem;
+  font-weight: 450;
+  line-height: 2.6rem;
+  color: #333333;
 }
 h3 {
-	font-size: 2rem;
-	font-weight: 500;
-	line-height: 2.1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  color: #333333;
 }
 p {
-	font-size: 1.5rem;
-	font-weight: 400;
-	line-height: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #333333;
+}
+
+a:link {
+  text-decoration: none;
+  color: #333333;        
+}
+
+a:hover {
+  color: #6B0000;
+  text-decoration: underline;
+}
+
+article {
+  width:50%;
+  background-color:#F5F9FF;
+  box-shadow: 0px 0px .3rem .3rem #a9a9a9;
+  padding-top:1.2rem;
+  float:left;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+aside {
+  width:35%;
+  float:right;
+  padding-top:1.5rem;
+  background-color:#F5F9FF;
+  margin-top:.5rem;
+  margin-left:.5rem;
+  box-shadow:0rem 0rem .3rem .3rem #a9a9a9;
+}
+
+footer {
+  width:35%;
+  float:right;
+  padding-top:1.5rem;
+  background-color:#F5F9FF;
+  margin-top:.5rem;
+  margin-left:.5rem;
+  box-shadow:0rem 0rem .3rem .3rem #a9a9a9;
+}
+
+nav {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #333333;   
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #333333;   
 }
