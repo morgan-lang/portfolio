@@ -1,26 +1,28 @@
-/*Setting the root font and scaling 1em to equal 10px. I want to practice calculating sizes using base-10 rems before worrying about the cascading effects of using ems*/
+/*Setting the root font and scaling 1em to equal 10px.*/
 
 html { 
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: helvetica,arial,sans-serif;
   font-size: 62.5%; 
 } 
 
+/*Major components*/
+
 h1 {
   font-size: 5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 3.1rem;
   color: #333333;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 450;
+  font-weight: 600;
   line-height: 2.6rem;
   color: #333333;
 }
 h3 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 2.1rem;
   color: #333333;
 }
@@ -31,45 +33,17 @@ p {
   color: #333333;
 }
 
-a:link {
-  text-decoration: none;
-  color: #333333;        
-}
-
-a:hover {
-  color: #6B0000;
-  text-decoration: underline;
-}
-
 article {
   width:50%;
   background-color:#F5F9FF;
-  box-shadow: 0px 0px .3rem .3rem #a9a9a9;
-  padding-top:1.2rem;
+  box-shadow: 0px 0px .1rem .1rem #333333;
+  padding:1rem;
   float:left;
   margin-top: 1.5rem;
   margin-bottom: .5rem;
 }
 
-aside {
-  width:35%;
-  float:right;
-  padding-top:1.5rem;
-  background-color:#F5F9FF;
-  margin-top:.5rem;
-  margin-left:.5rem;
-  box-shadow:0rem 0rem .3rem .3rem #a9a9a9;
-}
-
-footer {
-  width:35%;
-  float:right;
-  padding-top:1.5rem;
-  background-color:#F5F9FF;
-  margin-top:.5rem;
-  margin-left:.5rem;
-  box-shadow:0rem 0rem .3rem .3rem #a9a9a9;
-}
+/*Nav and lists*/
 
 nav {
   font-size: 1.5rem;
@@ -83,4 +57,38 @@ li {
   font-weight: 400;
   line-height: 1.6rem;
   color: #333333;   
+}
+
+/*Minor components*/
+
+aside {
+  width:35%;
+  float:right;
+  padding:1rem;
+  background-color:#F5F9FF;
+  margin-top:.5rem;
+  margin-left:.5rem;
+  box-shadow:0rem 0rem .1rem .1rem #333333;
+}
+
+footer {
+  width:35%;
+  float:right;
+  padding:1rem;
+  background-color:#F5F9FF;
+  margin-top:.5rem;
+  margin-left:.5rem;
+  box-shadow:0rem 0rem .1rem .1rem #333333;
+}
+
+a:link {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #6B0000;
+  text-decoration: underline;
+  font-weight: 600;
 }
