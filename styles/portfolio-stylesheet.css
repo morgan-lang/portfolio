@@ -58,16 +58,7 @@ p {
   color: #333333;
 }
 
-article {
-  font-family: 'Roboto Slab', serif;
-  width:50%;
-  background-color:#FFFFFF;
-  padding:1rem;
-  float:left;
-  margin-top: 1.5rem;
-  margin-bottom: .5rem;
-  border-radius: 1rem;
-}
+
 
 /*Header, Nav, and lists*/
 
@@ -81,8 +72,19 @@ nav {
   margin-top:.5rem;
   margin-left:.5rem;
   right: 1rem; 
-  top: 22%;
   position: fixed;
+  border-radius: 1rem;
+  top:32%;
+}
+
+article {
+  font-family: 'Roboto Slab', serif;
+  width:50%;
+  background-color:#FFFFFF;
+  padding:1rem;
+  float:left;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
   border-radius: 1rem;
 }
 
@@ -106,9 +108,9 @@ aside {
   margin-top:.5rem;
   margin-left:.5rem;
   right: 1rem; 
-  top: 33%;
   position: fixed;
   border-radius: 1rem;
+  top:48.5%;
 }
 
 footer {
@@ -120,9 +122,9 @@ footer {
   margin-top:.5rem;
   margin-left:.5rem;
   right: 1rem; 
-  top: 61.5%;
   position: fixed;
   border-radius: 1rem;
+  top:90%;
 }
 
 a:link {
